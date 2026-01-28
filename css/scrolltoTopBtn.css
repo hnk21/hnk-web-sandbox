@@ -1,0 +1,32 @@
+.scrollToTopBtn {
+    display: block;
+    background-color: #6fbdbe;
+    border: none;
+    border-radius: 50%;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 0.75em;
+    width: 4.7em;
+    position: fixed;
+    padding: 1.5em 1.5em;
+    bottom: 2em;
+    right: 2em;
+    z-index: 100;
+    opacity: 0;
+    transform: translateX(100px);
+    transition: all 0.7s ease;
+}
+
+.showBtn {
+    opacity: 0.6;
+    transform: translateX(0px);
+    transition: all 0.7s ease;
+}
+  
+.showBtn:hover {
+    opacity: 1;
+}
+
+.scrollToTopBtn .fa-arrow-circle-up {
+    font-size: 48px;
+}
